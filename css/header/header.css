@@ -1,0 +1,98 @@
+.header {
+  background-color: transparent;
+}
+.fondo1 {
+	background-color: var(--french-blue);
+	padding-top: 120px;
+	width: 100%;
+}
+.nav1 {
+	font-family: 'Smooch Sans', sans-serif;
+	background-color: var(--french-blue);
+	padding: 10px;
+	font-size: 25px;
+}
+.header .header__navbar .navbar__hamburger-wrapper {
+  z-index: var(--z-index-hamburger);
+  position: fixed;
+  top: var(--padding-top);
+  left: var(--padding-left);
+}
+.header .header__navbar .navbar__hamburger-wrapper button {
+  cursor: pointer;
+  width: 30px;
+  height: 24px;
+  margin: auto;
+  border: 0;
+  background: 0 0;
+  outline: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.header .header__navbar .navbar__hamburger-wrapper button li {
+  background-color: var(--eerie-black);
+  border-radius: 2px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+}
+.header .header__navbar .navbar__link {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  color: var(--snow);
+  font-family: var(--rajdhani);
+  font-size: 25px;
+  z-index: calc(var(--z-index-hamburger) - 10);
+  width: 230px;
+  height: 100vh;
+  background-color: var(--french-blue);
+  /*display: flex;
+  align-items: center;
+  */
+}
+.header .header__navbar .navbar__link ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  padding-left: var(--padding-left);
+  font-size: 26.4476px;
+
+  height: 100%;
+  padding-top: 300px;
+  padding-bottom: 48px;
+}
+.header .header__navbar .navbar__link ul li {
+  transition: 0.2s all;
+}
+.header .header__navbar .navbar__link ul li a:hover {
+  color: var(--raisin-black);
+}
+a:hover {
+  color: var(--snow);
+  text-decoration: none;
+}
+
+input{
+  cursor: pointer;
+  border: 1px solid;
+}
+
+/*# sourceMappingURL=header.css.map */
+
+/*para mi perfil o cerrar cuenta*/
+.navbar_down{
+  color: red;
+  margin-top: auto;
+  
+  
+
+}
+.header .header__navbar .navbar__link ul .navbar_down:hover{
+  color: rgb(245, 134, 7);
+  
+
+}

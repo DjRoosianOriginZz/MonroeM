@@ -1,0 +1,70 @@
+.body-login {
+	min-height: 100vh;
+	min-width: 100vw;
+	background-image: url("../images/Vista-Interior.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-login {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 35px;
+}
+
+.logo__img img {
+	border-radius: 50%;
+	width: 75px;
+	margin: 0 auto;
+}
+
+.logo__text {
+	color: var(--black-olive);
+	text-align: center;
+}
+
+.box-login__inputs {
+	margin-top: 35px;
+}
+
+.box-login__inputs input {
+	width: 350px;
+	height: 35px;
+	border-bottom: #FF6D13 solid 1px;
+}
+
+.box-login__inputs input:focus {
+	outline: inherit;
+}
+
+.box-login__inputs input:last-child {
+	margin-top: 20px;
+}
+
+.box-login__button button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--blue-jeans);
+	width: 200px;
+	height: 45px;
+	text-align: center;
+
+	border-radius: 4px;
+	color: white;
+	font-size: 22px;
+	padding: 15px;
+	margin-top: 25px;
+}
+
+.box-login__a a {
+	margin-top: 25px;
+	font-family: var(--rajdhani);
+	font-size: 20px;
+}
